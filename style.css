@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    width: 360px;
+}
+
+.nav-link:hover{
+    color: #6D1D8E;
+}
+.nav-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #6D1D8E;
+    margin: auto;
+    display: block;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: width 0.2s linear;
+    
+}
+.sec1{
+    background: #DECCFF;
+}
+.heading{
+    color: #6D1D8E;
+    font-family: "Kaisei HarunoUmi";
+    font-weight: 700;
+    font-size: 40px;
+}
+.sec1 h3{
+    font-family:Mulish ; 
+    font-weight: 700; 
+    font-size: 25px;
+    color: #6D1D8E;
+}
+.sec1 p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.sec1 button{
+    width: 150px;
+    height: 45px;
+    margin: 1px 18px 1px 0;
+    background: #6D1D8E;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    border: 0;
+    border-radius: 30px;
+}
+.sec2-div h1{
+    font-family: "Kaisei HarunoUmi";
+    font-weight: 700;
+    font-size: 45px;
+    color:  #6d1d8e;
+}
+.sec2-div input{
+    /* width: 1060px; */
+    height: 76px;
+    border: 0px ;
+    border-bottom: 2px solid #c5c5c5;
+    outline: none;
+    font-size: 25px;
+    margin:50px 0px 20px 0px;
+    padding: 6px 12px 6px 12px;
+    
+}
+ .search{
+    position: absolute;
+    right: 30px;
+    top: 88px;
+} 
+.search-div{
+    position: relative; 
+}
+.training-program{
+    padding: 25px 20px 5px 10px;
+    height: 700px;
+    width: 400px;
+    
+}
+.card{
+    border: 0;
+    border-radius: 9px;
+    transition: .5s;
+    background: #F9F9F9; 
+    height: 650px;
+    box-sizing: border-box;
+}
+.card:hover  {
+    background: #fff;
+    box-shadow:  0 0 30px #b0afaf;
+    border-radius: 10px;
+}
+.card:hover .card-img-div{
+    background: #6D1D8E;
+}
+.card:hover .card-body button {
+    background: #6D1D8E;
+    color: #fff;
+}
+.card:hover .card-img-top{
+    background-color: #fff;
+} 
+.card-img-div{
+    height: 150px;
+    width: 180px;
+    border-radius: 50%; 
+    padding-top: 35px;
+    background: #ececec;
+}
+.card-img-top{
+    height: 75px;
+    width: 90px;
+
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-body p span{
+    color: #6D1D8E;
+    font-weight: 700;
+    font-size: 15px;
+}
+.card-body a{
+    width: 160px;
+    height: 89px;
+}
+.card-body h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: #6D1D8E;
+}
+.card-body button{
+    height: 45px;
+    width: 150px;
+    font-weight: 800;
+    font-size: 18px;
+    border:2px solid #6D1D8E;
+    border-radius: 23px;
+    color: #6D1D8E;
+}
+.sec3{
+    height: 700px;
+}
+.why h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #6d1d8e;
+}
+.why{
+    background: #F9F9F9;
+}
+
+.why-luminar ul li{
+    
+    list-style: none;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAMAAAA5HAOUAAAAZlBMVEUAAABsHI9tHY5uHo1wH45tHI5tHY5tHY9wII9sHI9tHY1sHY9vHI9tHY5tHY5tHY1tHI5tHY5sHo5tHY1tHY5uHI5sHY5uHY5tGo1rG4dtHY5tHY5tHI9tHI5uHY9rHoxtG41tHY6LmJQYAAAAIXRSTlMAQMCAEODwnyB/YFAv0Ilw9NrPurCTW7QdCfzn0cWqRTjIEMMwAAABIUlEQVQ4y9WT6W7DIBCEuYwBH/ERu0nvff+X7AC1UB0cqv5q9o/l1aedWRjYPyjTlBllNYn2PnPtKyJNVKs7EAczcrWAPB2K1eRLwpogqngWkhpEC7JycaowN0yD9tm3V8ACc0742p09SHQ8rEih6kswoH/KEgW7TgPwY+nZMtZ2JHeUX3GieFZyADeuTGaoNhpP6851huLUqbQNjS8A+wwlUgM/1x5rFynGFiiWKfkX6uLP+xezUE80pUaTp3oPTjydV95X+x4u0LB401LlKAeVV2CDbbbUGLGjxHdcBvJVbfHQu5fiqqCmFr9GatzkGVnViN3nTPT2wePwTJkztCCxjkHVHb6hzgdMWbjr1QGzhRWGZlt42zK8gGIZxx6mvgC4sBzNJvTJYQAAAABJRU5ErkJggg==');
+    background-repeat: no-repeat;
+}
+.join{
+    height: 500px;
+    background-image: url('https://www.luminartechnolab.com/static/media/pexels-kindel-media-7054785.47b27e7d.png');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: bottom;
+}
+
+.join-p1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Kaisei HarunoUmi";
+    color: #f5f5f5;
+}
+.join-p2{
+    font-size: 15px;
+    font-weight: 400;
+    color:#bb9867;
+   }
+   .join-btn{
+    font-family: mulish;
+    height: 47px;
+    width: 162px;
+    font-weight: 800;
+    font-size: 18px;
+    border: 0;
+    border-radius: 23px;
+    color: #6D1d8E;
+   }
+   .footer-li{
+    list-style: none;
+   }
+   .footer-a{
+    text-decoration: none;
+    color: #7e7e7e;
+    font-size: 14px;
+    font-weight: 400;
+   } 
+   p{
+    
+    margin-bottom: 0;
+   }
+   .address{
+    color: #7e7e7e;
+   }
+   .footer-headings{
+    font-size: 16px;
+    font-weight: 700;
+    color: #6d1d8e;
+   }
+   .footer-headings:hover{
+    border-bottom: 3px  solid  #6d1d8e;
+   }
+
+   /* .footer-a:hover{
+    color: #6d1d8e;
+    
+   }
+    
+   }
+   .footer-a:hover .link-hr{
+    color: black;
+    
+   } */
+   .link-hr{
+    color:#fff;
+   }
+   
+   .link-div:hover .footer-a{
+    color: #6D1D8E;
+   
+   }
+   .link-div:hover .link-hr{
+    color: #6D1D8E;
+   }
+   .last-link{
+    text-decoration: none;
+    color: #6D1D8E;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .last-link:hover{
+    color: #515151;
+   }
+   .btn{
+    width: 80px;
+    height: 40px;
+    background: #6D1D8E;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+   }
+   .btn:hover{
+    background: #6D1D8E;
+    color: #fff;
+   }
+   select{
+    border: 1px solid #515151;
+   }
